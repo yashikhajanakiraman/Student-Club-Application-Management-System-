@@ -60,11 +60,11 @@ All application records are stored as **JSON objects** with the following struct
 
 ```json
 {
-    "Name": "",
-    "r_n": "CS2025",
+    "Name": "Yashikha J",
+    "r_n": 062,
     "Dept": "Computer Science",
-    "Sec": "B",
-    "Intr": "AI, Robotics"
+    "Sec": "F",
+    "Intr": "Backend"
 }
 ```
 
