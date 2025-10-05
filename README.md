@@ -6,7 +6,7 @@
 ### Prerequisites
 **Python** and **Flask** library.
 
-Install Flask using:
+Install Flask  
 ```bash
 pip install Flask
 ````
@@ -30,15 +30,15 @@ All application records are stored as **JSON objects** with the following struct
 
 | **Key**      | **Description**                    | **Type** | **Example**        |
 | ------------ | ---------------------------------- | -------- | ------------------ |
-| `ID`         | Unique Identifier (Auto-generated) | Integer  | `1`                |
+| `ID`         | Auto-Generated Unique number       | Integer  | `1`                |
 | `Name`       | Student's full name                | String   | `"Yashikha J"`     |
-| `Roll_no`    | Student's roll number (from `r_n`) | String   | `"062"`            |
-| `Department` | Department name (from `Dept`)      | String   | `"CSE"`            |
-| `Section`    | Section (from `Sec`)               | String   | `"A"`              |
-| `Intrests`   | Student interests (from `Intr`)    | String   | `"Backend"` |
+| `Roll_no`    | Student's roll number              | String   | `"62"`             |
+| `Department` | Student's Department name          | String   | `"CSE"`            |
+| `Section`    | Student's Section                  | String   | `"F"`              |
+| `Intrests`   | Student's interests                | String   | `"Backend"`        |
 
 ---
-
+These are the all the endpoints
 
 | **Route**                   | **Method** | **Description**                       | **Request Body** | **Success Status** | **Error Status**  |
 | --------------------------- | ---------- | ------------------------------------- | ---------------- | ------------------ | ----------------- |
@@ -67,4 +67,6 @@ All application records are stored as **JSON objects** with the following struct
     "Intr": "Backend"
 }
 ```
-
+#### Additional Notes 
+The syntax of this application is very similar to the syntax of creating a binary file in python.
+To test this code I used Postman.I installed it from Chrome.
