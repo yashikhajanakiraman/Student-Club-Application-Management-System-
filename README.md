@@ -42,11 +42,11 @@ These are the all the endpoints
 
 | **Route**                   | **Method** | **Description**                       | **Request Body** | **Success Status** | **Error Status**  |
 | --------------------------- | ---------- | ------------------------------------- | ---------------- | ------------------ | ----------------- |
-| `/`                         | `GET`      | Health check / API status             | None             | `200 OK`           | -                 |
-| `/apply`                    | `POST`     | **Create** a new application          | JSON (see below) | `201 Created`      | `400 Bad Request` |
-| `/application`              | `GET`      | **Read** all applications             | None             | `200 OK`           | -                 |
-| `/application/<int:stu_id>` | `GET`      | **Read** a specific application by ID | None             | `200 OK`           | `404 Not Found`   |
-| `/application/<int:stu_id>` | `DELETE`   | **Delete** an application by ID       | None             | `200 OK`           | `404 Not Found`   |
+| `/`                         | `GET`      | To check if application is working             | None             | `200 OK`           | -                 |
+| `/apply`                    | `POST`     | **Creates** a new application          | JSON (see below) | `201 Created`      | `400 Bad Request` |
+| `/application`              | `GET`      | **Reads** all applications             | None             | `200 OK`           | -                 |
+| `/application/<int:stu_id>` | `GET`      | **Reads** a specific application using its ID | None             | `200 OK`           | `404 Not Found`   |
+| `/application/<int:stu_id>` | `DELETE`   | **Deletes** an application using its ID       | None             | `200 OK`           | `404 Not Found`   |
 
 ---
 
